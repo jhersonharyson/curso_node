@@ -58,6 +58,6 @@ app.delete('/user', (req, res) => {
 
 })
 
+const port = process.env.PORT || 3001;
 
-
-app.listen(3001, () => console.log('servidor no ar'))
+app.listen(port, () => console.log('servidor no ar'))
